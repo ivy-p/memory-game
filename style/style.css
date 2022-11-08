@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    opacity: 0.8;
+}
+
+h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+#grid {
+    background-color:rgb(24, 24, 63);
+    padding: 20px 0;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.grid-item {
+    margin: 3px;
+}
+
+img {
+    opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: .8;
+}
+
+img:active {
+    opacity: 0.5;
+}
