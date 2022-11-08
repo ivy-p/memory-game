@@ -48,12 +48,13 @@ p {
 
 #grid {
     background-color:rgb(24, 24, 63);
-    padding: 20px 0;
+    padding: 20px 5px;
     border-radius: 30px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 30px;
+    width: 100%;
 }
 
 .grid-item {

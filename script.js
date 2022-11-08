@@ -116,6 +116,7 @@ function checkMatch () {
     if (cardsWon.length == (cardArray.length/2)) {
         scoreContainer.innerHTML = "Congratulations! You've found them all!"
         scoreDisplay.innerHTML = "";
+        gridDisplay.innerHTML = '<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/pHYaWbspekVsTKRFQT" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/neurads-dance-yas-yass-pHYaWbspekVsTKRFQT"></a></p>'
     }
 };
 
