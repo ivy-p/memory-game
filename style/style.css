@@ -68,16 +68,18 @@ img {
     width: 70px;
 }
 
-img:hover {
-    opacity: .8;
-}
-
-img:active {
-    opacity: 0.5;
-}
-
 @media only screen and (min-width: 400px) {
     img {
         width: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    img:hover {
+        opacity: .8;
+    }
+    
+    img:active {
+        opacity: 0.5;
     }
 }
